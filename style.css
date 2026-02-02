@@ -1,0 +1,154 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    html, body{
+        width: 100%;
+        height: 100%;
+    }
+
+    .main{
+        width: 100%;
+        height: 100%;
+        background-color: royalblue;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .box{
+        width: 400px;
+        height: 450px;
+        border-radius: 12px;
+        background: linear-gradient(135deg, #f5f7fa 0%, #e3e7f0 100%);
+        padding: 20px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+        overflow-y: auto;
+    }
+
+    .box{
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
+
+    .box::-webkit-scrollbar{
+        display: none;
+    }
+
+    h1{
+        font-family: sans-serif;
+        text-align: center;
+        margin-bottom: 20px;
+        color: royalblue;
+    }
+
+    input{
+        width: 100%;
+        padding: 12px;
+        border: 2.5px solid #ddd;
+        border-radius: 8px;
+        font-size: 16px;
+        margin-bottom: 10px;
+        outline: none;
+    }
+
+    input:focus{
+        border-color: royalblue;
+    }
+
+    button{
+        width: 20%;
+        padding: 12px;
+        background-color: royalblue;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 13px;
+        cursor: pointer;
+    }
+
+    button:hover{
+        background-color: #4169e1;
+    }
+
+    .actions{
+        margin-top: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+        max-height: 250px;
+        overflow-y: auto;
+    }
+
+    .task-item{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        align-items: center;
+        margin-bottom: 8px;
+
+    }
+    .task-item::before{
+        content: "•";
+        color: #333;
+        font-size: 18px;
+        line-height: 1;
+        margin-right: 6px;
+    }
+
+    .task-input{   
+        flex: 1;
+        padding: 0;
+        border: none;
+        border-radius: 0;
+        font-size: 16px;
+        background-color: transparent;
+        margin-bottom: 0;
+        outline: none;
+        box-shadow: none;
+    }
+
+    .delete-btn{
+        width: auto;
+        height: auto;
+        padding: 8px 16px;
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #e74c3c;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        font-size: 12px;
+        cursor: pointer;
+}
+
+.delete-btn:hover{
+    background-color: #c0392b;
+}
+
+.edit-btn{
+    width: auto;
+    padding: 8px 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 8px;
+        font-size: 12px;
+    cursor: pointer;
+}
+
+.edit-btn:hover{
+    background-color: #2980b9;
+}
+
+.actions::-webkit-scrollbar{
+  display: none;                
+}
+
+.actions{
+  scrollbar-width: none;        
+  -ms-overflow-style: none;    
+}
