@@ -1,15 +1,16 @@
-    *{
+    * {
         margin: 0;
         padding: 0;
         box-sizing: border-box;
     }
 
-    html, body{
+    html,
+    body {
         width: 100%;
         height: 100%;
     }
 
-    .main{
+    .main {
         width: 100%;
         height: 100%;
         background-color: royalblue;
@@ -18,7 +19,7 @@
         justify-content: center;
     }
 
-    .box{
+    .box {
         width: 400px;
         height: 450px;
         border-radius: 12px;
@@ -28,23 +29,23 @@
         overflow-y: auto;
     }
 
-    .box{
+    .box {
         scrollbar-width: none;
         -ms-overflow-style: none;
     }
 
-    .box::-webkit-scrollbar{
+    .box::-webkit-scrollbar {
         display: none;
     }
 
-    h1{
+    h1 {
         font-family: sans-serif;
         text-align: center;
         margin-bottom: 20px;
         color: royalblue;
     }
 
-    input{
+    input {
         width: 100%;
         padding: 12px;
         border: 2.5px solid #ddd;
@@ -54,11 +55,11 @@
         outline: none;
     }
 
-    input:focus{
+    input:focus {
         border-color: royalblue;
     }
 
-    button{
+    button {
         width: 20%;
         padding: 12px;
         background-color: royalblue;
@@ -69,11 +70,11 @@
         cursor: pointer;
     }
 
-    button:hover{
+    button:hover {
         background-color: #4169e1;
     }
 
-    .actions{
+    .actions {
         margin-top: 30px;
         display: flex;
         flex-direction: column;
@@ -82,7 +83,7 @@
         overflow-y: auto;
     }
 
-    .task-item{
+    .task-item {
         display: flex;
         flex-direction: row;
         gap: 10px;
@@ -90,7 +91,8 @@
         margin-bottom: 8px;
 
     }
-    .task-item::before{
+
+    .task-item::before {
         content: "•";
         color: #333;
         font-size: 18px;
@@ -98,7 +100,7 @@
         margin-right: 6px;
     }
 
-    .task-input{   
+    .task-input {
         flex: 1;
         padding: 0;
         border: none;
@@ -110,7 +112,7 @@
         box-shadow: none;
     }
 
-    .delete-btn{
+    .delete-btn {
         width: auto;
         height: auto;
         padding: 8px 16px;
@@ -123,32 +125,32 @@
         border-radius: 8px;
         font-size: 12px;
         cursor: pointer;
-}
+    }
 
-.delete-btn:hover{
-    background-color: #c0392b;
-}
+    .delete-btn:hover {
+        background-color: #c0392b;
+    }
 
-.edit-btn{
-    width: auto;
-    padding: 8px 16px;
-    background-color: #3498db;
-    color: white;
-    border: none;
-    border-radius: 8px;
+    .edit-btn {
+        width: auto;
+        padding: 8px 16px;
+        background-color: #3498db;
+        color: white;
+        border: none;
+        border-radius: 8px;
         font-size: 12px;
-    cursor: pointer;
-}
+        cursor: pointer;
+    }
 
-.edit-btn:hover{
-    background-color: #2980b9;
-}
+    .edit-btn:hover {
+        background-color: #2980b9;
+    }
 
-.actions::-webkit-scrollbar{
-  display: none;                
-}
+    .actions::-webkit-scrollbar {
+        display: none;
+    }
 
-.actions{
-  scrollbar-width: none;        
-  -ms-overflow-style: none;    
-}
+    .actions {
+        scrollbar-width: none;
+        -ms-overflow-style: none;
+    }
