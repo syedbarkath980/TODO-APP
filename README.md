@@ -69,13 +69,11 @@ This project is focused only on practicing:
 
 ## 🧭 Future Improvements
 
-- Store tasks using browser local storage
-- Add a completed or done state for tasks
-- Support adding tasks using the Enter key
-- Improve the editing experience using a save button
-
+<!-- - Store tasks using browser local storage
+     - Add a completed or done state for tasks
+     - Support adding tasks using the Enter key
+     - Improve the editing experience using a save button -->
 ---
-
 ## 👨‍💻 Author
 
 **Syed Barkath Ali**
